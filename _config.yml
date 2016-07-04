@@ -1,0 +1,21 @@
+# Site settings
+title: Command Code 
+header-img: img/home-bg.png
+email: khaitdmitriy@gmail.com
+copyright_name: khaitd
+description: > # this means to ignore newlines until "baseurl:"
+  Complex made easy, and other insights.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  khaitd
+learn_profile: khaitd
+email_username: khaitdmitriy@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
