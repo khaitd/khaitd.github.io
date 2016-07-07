@@ -51,3 +51,10 @@ After the construction of the render tree it goes through a "layout" process. Th
 It's important to understand that this is a gradual process. For better user experience, the rendering engine will try to display contents on the screen as soon as possible. It will not wait until all HTML is parsed before starting to build and layout the render tree. Parts of the content will be parsed and displayed, while the process continues with the rest of the contents that keeps coming from the network.
 
 
+
+[html5rocks](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+[Wiki SGML](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language)
+[Wiki HTML](https://en.wikipedia.org/wiki/HTML)
+
+
+
