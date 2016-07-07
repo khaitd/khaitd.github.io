@@ -55,8 +55,7 @@ Sources and further readig:
 [html5rocks](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 [Wiki SGML](https://en.wikipedia.org/wiki/Standard_Generalized_Markup_Language)
 [Wiki HTML](https://en.wikipedia.org/wiki/HTML)
-http://www.tech-faq.com/how-does-html-work.html
-https://www.smashingmagazine.com/2010/09/html5-the-facts-and-the-myths
-
+[How HTML works](http://www.tech-faq.com/how-does-html-work.html)
+[HTML5 facts](https://www.smashingmagazine.com/2010/09/html5-the-facts-and-the-myths)
 
 
