@@ -31,14 +31,21 @@ The way the browser interprets and displays HTML files is specified in the HTML 
 
 
  For example if the requested content is HTML, the browsers rendering engine parses HTML and CSS, and displays the parsed content on the screen.
+  
+![](http://i.imgur.com/usAF3xQ.png)
+ 
 
 A parser is a software component that takes input data (frequently text) and builds a data structure 
+
+![](http://i.imgur.com/xZ4Eo8z.png)
 
 The rendering engine will start parsing the HTML document and convert elements to DOM nodes in a tree called the "content tree". The engine will parse the style data, both in external CSS files and in style elements. Styling information together with visual instructions in the HTML will be used to create another tree: the render tree.
 
 The render tree contains rectangles with visual attributes like color and dimensions. The rectangles are in the right order to be displayed on the screen.
 
 After the construction of the render tree it goes through a "layout" process. This means giving each node the exact coordinates where it should appear on the screen. The next stage is painting–the render tree will be traversed and each node will be painted using the UI backend layer.
+
+
 
 
 It's important to understand that this is a gradual process. For better user experience, the rendering engine will try to display contents on the screen as soon as possible. It will not wait until all HTML is parsed before starting to build and layout the render tree. Parts of the content will be parsed and displayed, while the process continues with the rest of the contents that keeps coming from the network.
