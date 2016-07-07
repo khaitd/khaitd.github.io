@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Virtues of HTML"
-date:   2016-07-06 23:37:47 +0000
+date:   2016-07-06 19:37:47 -0400
 ---
 
 
@@ -21,14 +21,10 @@ In 1945 Vannevar Bush, an American engineer, and inventor who headed the U.S. Of
 
    ![](http://s-media-cache-ak0.pinimg.com/236x/22/34/64/2234641341ab69b987183f611d16935d.jpg)
 
-HTML documents are interpreted by web browsers which currently conform(for the most part) to specifications in order to avoid compatibility issues. The browser has a rendering engine that parses HTML and CSS, and displays the parsed content on the screen. Tests such as [acidtest](http://acid3.acidtests.org) show how well a browser renders a page and most score highly. 
-
-
-
-
-
 	
 HOW IT WORKS / TECHNICAL / Web Browsers
+
+HTML documents are interpreted by web browsers which currently conform(for the most part) to specifications in order to avoid compatibility issues. The browser has a rendering engine that parses HTML and CSS, and displays the parsed content on the screen. Tests such as [acidtest](http://acid3.acidtests.org) show how well a browser renders a page and most score highly. 
 
 
 The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web. For years browsers conformed to only a part of the specifications and developed their own extensions. That caused serious compatibility issues for web authors. Today most of the browsers more or less conform to the specifications.
