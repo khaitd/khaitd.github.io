@@ -14,6 +14,7 @@ The colorize gem was useful for making the article title, source, and score attr
 
 The heart of my program was the CLI and News classes. A new instance of the CLI class is called immediately when the program starts up, and it calls a "call" instance method which is also created in the CLI. The call method invokes two other methods, "list_news" and "menu". These methods create instances of the News class and utilize its instance methods to scrape [Hacker News](https://news.ycombinator.com/).
 
+
 ```
 class HackerNews::CLI
 
@@ -63,7 +64,8 @@ class HackerNews::CLI
           exit
         end
   end
-	```
+	
+```
 
 The scrapping section of the News class was pretty straight-forward due to the simplicity of the HTML formatting written by the Hacker News Web Dev team. I optimized my class to recieve mass data assignment upon initialization, and I used an each loop to parse over the Nokogiri object, collect the respective data into a hash, and initialize a "News" object with the retreived data. I added two more loops to scrape the upvote count and the comment id (which I use to access an articles comment section) It would be useful to allow users to access the comments section of a specific article. Upon entering a specific article I scraped one layer deep in it to retreive it's id number. Appending this id number to the hacker news URL gets the full pathname to access the article. 
 
