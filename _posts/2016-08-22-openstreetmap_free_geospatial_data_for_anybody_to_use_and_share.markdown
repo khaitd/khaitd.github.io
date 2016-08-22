@@ -4,7 +4,7 @@ title:  "OpenStreetMap, free geospatial data for anybody to use and share"
 date:   2016-08-22 01:01:55 -0400
 ---
 
-<center>  ![](http://www.golem.de/specials/_img/OpenStreetMap/Mag_map-120x120.png)
+<center>   ![](http://www.golem.de/specials/_img/OpenStreetMap/Mag_map-120x120.png)
  </center>
  
 Inspired by the success of Wikipedia, OpenStreetMap is a project to create a free editable map of the world. OSM is considered a prominent example of volunteered geographic information. OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world. OpenStreetMap's community is diverse, passionate, and growing every day. Our contributors include enthusiast mappers, GIS professionals, engineers running the OSM servers, humanitarians mapping disaster-affected areas, and many more.
