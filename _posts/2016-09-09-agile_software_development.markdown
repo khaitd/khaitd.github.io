@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Agile Software Development"
-date:   2016-09-09 02:43:26 +0000
+date:   2016-09-08 22:43:26 -0400
 ---
 
-<center>![](https://www.crmswitch.com/wp-content/uploads/2015/02/advancements-business-technology.jpg)</center>
+ ![](https://www.crmswitch.com/wp-content/uploads/2015/02/advancements-business-technology.jpg) 
 <center> Building software better using Agile methodology </center>
 
 
