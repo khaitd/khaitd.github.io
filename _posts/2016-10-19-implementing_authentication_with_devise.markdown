@@ -34,14 +34,14 @@ config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 ```
 
 Then Open up `app/views/layouts/application.html.erb` and add:
- 
-<% if notice %>
-  <p class="alert alert-success"><%= notice %></p>
-<% end %>
-<% if alert %>
-  <p class="alert alert-danger"><%= alert %></p>
-<% end %>
- 
+ `
+#<% if notice %>
+#<p class="alert alert-success"><%= notice %></p>
+#<% end %>
+##<% if alert %>
+  #<p class="alert alert-danger"><%= alert %></p>
+#<% end %>
+ `
 
 An important place to to take a look is inside of the *initializer* that the generator will install because it will describe Devise's configuration options. For example:
 
