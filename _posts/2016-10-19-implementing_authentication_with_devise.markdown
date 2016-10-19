@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Implementing Authentication with Devise"
-date:   2016-10-19 03:44:04 +0000
+date:   2016-10-18 23:44:04 -0400
 ---
 
 
@@ -11,8 +11,13 @@ date:   2016-10-19 03:44:04 +0000
 
 **Typical User Authentication Process**
 1. Signup - create a new user profile with a Username, Password(Encrypted), e-mail, etc
+
 2. Login - a user must sign in with their valid Username and Password which is then authenticated by matching the stored the username and password in the database, allowing the user access to the protected actions only if the given information matches the recorded values successfully. If not, the user will be redirected to the login page again. 
+
+
 3. Access Restriction - create a session to hold the authenticated user ID after login, so navigation through additional protected actions can be done easily by just checking the userID in the current session.
+
+
 4. Logout - allow the user to sign out and set the authenticated userID in session file to nil.
 
 The Devise Gem is a flexible authentication solution for Rails. It allows developers to rapidly set up a fully functioning login system, and Devise gives you basically everything you need to solve the problem of authentication. Devise 4.0 works with Rails 4.1 onwards. Devise is based on Warden, which is a general Rack authentication framework created by Daniel Neighman.
@@ -31,14 +36,14 @@ config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 ```
 
 Then Open up `app/views/layouts/application.html.erb` and add:
-```
+` 
 <% if notice %>
   <p class="alert alert-success"><%= notice %></p>
 <% end %>
 <% if alert %>
   <p class="alert alert-danger"><%= alert %></p>
 <% end %>
-```
+` 
 
 An important place to to take a look is inside of the *initializer* that the generator will install because it will describe Devise's configuration options. For example:
 
