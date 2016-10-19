@@ -10,7 +10,7 @@ date:   2016-10-18 23:44:04 -0400
  Password-protected actions are something we experience everyday as users of software in our daily lives. Only allowing registered users in with a valid password is called “User Authentication.”
 
 **Typical User Authentication Process**
-* 1. Signup - create a new user profile with a Username, Password(Encrypted), e-mail, etc
+* 1. Signup - create a new user profile with a Username, Password(Encrypted), e-mail, etc..
 
 * 2. Login - a user must sign in with their valid Username and Password which is then authenticated by matching the stored the username and password in the database, allowing the user access to the protected actions only if the given information matches the recorded values successfully. If not, the user will be redirected to the login page again. 
 
