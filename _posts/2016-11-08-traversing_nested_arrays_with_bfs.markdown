@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Traversing Nested Arrays with BFS"
-date:   2016-11-08 23:10:16 +0000
+date:   2016-11-08 18:10:17 -0500
 ---
 
 
@@ -71,3 +71,9 @@ function find(array, criteriaFn) {
 ```
 
 This is the Breath-first search algorithm and it is commonly used to search through nested objects. The algorithm got its name because it looks through the siblings at the current level of the nested object before moving downward to futher levels. A related algorithm - the depth-first search runs similarly but moves down through the levels before covers the breath of a curretn level. A common use for Breath-first search algorithm is commonly used to find the shortest distance between two nodes, while a depth-first search is commonly used to identify a cycle in a graph. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Breadth-first-tree.svg/300px-Breadth-first-tree.svg.png)
+
+So to reiterate, the main idea behind a breath-first search is to access all the nodes of a parent before moving to the next level. So in this example we would start at one as our root node and checking 2, 3 and 4. Afterwards moving chronologically to 2 and exhausting all its nodes. Once again this is in contrast to a depth first search which would go down levels until it reaches the lowest level of tree before moving to a different node.
+
+
